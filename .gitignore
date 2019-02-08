@@ -1,0 +1,6 @@
+__pycache__/*
+output/*
+.doit.db.bak
+.doit.db.dat
+.doit.db.dir
+
