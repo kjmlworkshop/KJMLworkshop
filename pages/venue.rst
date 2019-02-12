@@ -41,7 +41,7 @@
 
 * **Resort room** : Deluxe Double (Ocean View) - *270,000 won/day + tax*
 
-For reservation, please call **+82-64-780-0000** and notify that you are the participant of the **"Korea-Japan Machine Learning Workshop"** to get this discounted offer.
+For reservation, please call **+82-64-780-8000** and notify that you are the participant of the **"Korea-Japan Machine Learning Workshop"** to get this discounted offer.
 
 The hotel reservation site also provides economic rooms: `Hotel reservation <https://www.haevichi.com/jeju/ko/>`__
 

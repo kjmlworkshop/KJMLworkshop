@@ -141,7 +141,7 @@ Program Overview
   <tr class="">
   <td><b>11:00am - 11:30pm</b></td>
   <td><b>Sun Kim</b> (Seoul National University) <br>
-      Title: Modeling cancer cells using multi-comics data</td>
+      Title: Modeling cancer cells using multi-omics data</td>
   </tr>
 
   <tr class="">
