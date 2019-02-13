@@ -95,7 +95,7 @@ Program Overview
   <tr class="">
   <td><b>06:30pm - 07:00pm</b></td>
   <td><b>Yung-Kyun Noh</b> (Seoul National University) <br>
-      Title: TBD</td>
+      Title: Inference and Estimation using Nearest Neighbors</td>
   </tr>
 
   <tr class="">
