@@ -6,5 +6,64 @@
 .. link: 
 .. description: 
 .. type: text
+.. hidetitle: true
+.. hasmath: true
 
-Titles and abstracts will appear soon.
+
+
+
+============
+**Program**
+============
+
+
+.. contents::  :local:
+
+-----------
+**Talks**
+-----------
+
+
+{{% template %}}
+
+% for talk in data['talks']:
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/${talk['Pic']}" class="pic">
+    </div>
+    <div>
+    <p><strong>${talk['Title']}</strong></p>
+    <p>${talk['Name']} (${talk['Affiliation']})</p>
+    <p style="min-height: 170px;">${talk['Abstract']}</p>
+    </div>
+</div>
+% endfor
+
+{{% /template %}}
+
+
+
+--------------
+**Posters**
+--------------
+
+{{% template %}}
+
+<ol>
+% for poster in data['posters']:
+<li class='poster-list'>
+<b>${poster['Poster Title']}</b><br>
+${poster['Presenter']} (${poster['Affiliation']})
+</li>
+% endfor
+</ol>
+
+{{% /template %}}
+
+
+------------------
+**Participants**
+------------------
+
+
+The list of participants will be updated soon.

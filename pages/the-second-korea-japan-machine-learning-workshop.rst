@@ -84,7 +84,7 @@ Program Overview
   <tr class="">
   <td><b>05:30pm - 06:00pm</b></td>
   <td><b>Hyunjung Shin</b> (Ajou University) <br>
-      Title: TBD</td>
+      Title: Graph-based Semi-Supervised Learning for Genome, Diseasome, and Drugome</td>
   </tr>
   <tr class="">
   <td><b>06:00pm - 06:30pm</b></td>
