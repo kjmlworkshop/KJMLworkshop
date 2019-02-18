@@ -38,7 +38,7 @@
     <div>
     <p><strong>${talk['Title']}</strong></p>
     <p>${talk['Name']} (${talk['Affiliation']})</p>
-    <p style="min-height: 170px;">${talk['Abstract']}</p>
+    <p style="min-height: 220px;">${talk['Abstract']}</p>
     </div>
 </div>
 % endfor
