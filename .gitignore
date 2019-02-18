@@ -4,4 +4,4 @@ __pycache__/*
 .doit.db.dir
 cache/*
 cache/.mako.tmp/*
-
+venv/*
