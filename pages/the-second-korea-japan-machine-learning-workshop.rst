@@ -177,7 +177,7 @@ Program Overview
   <tr class="">
   <td><b>04:30pm - 05:00pm</b></td>
   <td><b>Chao Li</b> (RIKEN-AIP) <br>
-      Title: TBD</td>
+      Title: Reshuffled Tensor Decomposition with Exact Recovery of Low-rank Components</td>
   </tr>
 
   <tr class="">
@@ -218,7 +218,7 @@ Program Overview
   <tr class="">
   <td><b>11:00am - 11:30pm</b></td>
   <td><b>Bohyung Han</b> (Seoul National University) <br>
-      Title: TBD</td>
+      Title: Learning for Single-Shot Confidence Calibration in Deep Neural Networks through Stochastic Inferences</td>
   </tr>
 
   <tr class="">
