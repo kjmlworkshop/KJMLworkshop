@@ -69,5 +69,24 @@ ${poster['Presenter']} (${poster['Affiliation']})
 **Participants**
 ------------------
 
+{{% template %}}
+
+% for person in data['participants']:
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/${person['Pic']}" class="pic">
+    </div>
+    <div>
+    <p><strong>${person['Name']}</strong></p>
+    <p>${person['Affiliation']}</p>
+    <p style="min-height: 170px;">${person['Keywords']}</p>
+    </div>
+</div>
+% endfor
+
+{{% /template %}}
+
+
+
 
 The list of participants will be updated soon.
