@@ -79,14 +79,9 @@ ${poster['Presenter']} (${poster['Affiliation']})
     <div>
     <p><strong>${person['Name']}</strong></p>
     <p>${person['Affiliation']}</p>
-    <p style="min-height: 170px;">${person['Keywords']}</p>
+    <p style="min-height: 220px;">${person['Keywords']}</p>
     </div>
 </div>
 % endfor
 
 {{% /template %}}
-
-
-
-
-The list of participants will be updated soon.
