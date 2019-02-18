@@ -6,7 +6,7 @@ import os
 warnings.filterwarnings('ignore')
 
 parser = argparse.ArgumentParser()
-parser.add_argument('task', choices=['poster', 'talk', 'participant'])
+parser.add_argument('task', choices=['poster', 'talk', 'people'])
 args = parser.parse_args()
 import pickle
 import os.path
@@ -86,3 +86,12 @@ elif args.task == 'talk':
     with open('talks.json', 'w') as f:
         f.write(json_data)
 
+elif args.task == 'people':
+    TALK_RANGE = "'Participants'!A1:D"
+    df = read_data(TALK_RANGE)
+    df['Pic'] = df['Pic'].apply(lambda x: x if os.path.isfile(f'../images/{x}') else 'placeholder.jpg')
+    print(df)
+    json_data = df.to_json(orient='records')
+
+    with open('participants.json', 'w') as f:
+        f.write(json_data)
