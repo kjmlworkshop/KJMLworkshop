@@ -38,7 +38,7 @@
     <div>
     <p><strong>${talk['Title']}</strong></p>
     <p>${talk['Name']} (${talk['Affiliation']})</p>
-    <p style="min-height: 170px;">${talk['Abstract']}</p>
+    <p style="min-height: 220px;">${talk['Abstract']}</p>
     </div>
 </div>
 % endfor
@@ -69,5 +69,19 @@ ${poster['Presenter']} (${poster['Affiliation']})
 **Participants**
 ------------------
 
+{{% template %}}
 
-The list of participants will be updated soon.
+% for person in data['participants']:
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/${person['Pic']}" class="pic">
+    </div>
+    <div>
+    <p><strong>${person['Name']}</strong></p>
+    <p>${person['Affiliation']}</p>
+    <p style="min-height: 220px;">${person['Keywords']}</p>
+    </div>
+</div>
+% endfor
+
+{{% /template %}}
