@@ -10,6 +10,16 @@
 }
 
 
+.pic2 {
+    clip-path: circle(50px at center);
+    float: left;
+    clear: left;
+    margin-right:15px;
+    /* margin-bottom:15px; 
+    margin-top:15px; */
+    width: 100px;
+}
+
 .poster-list {
     padding-top: 5px;
     padding-bottom: 5px;
