@@ -77,9 +77,8 @@ ${poster['Presenter']} (${poster['Affiliation']})
     <img src="../images/${person['Pic']}" class="pic2">
     </div>
     <div>
-    <p><strong>${person['Name']}</strong></p>
-    <p>${person['Affiliation']}</p>
-    <p style="min-height: 220px;">${person['Keywords']}</p>
+    <p><strong>${person['Name']}</strong> (${person['Affiliation']})</p>
+    <p style="min-height: 80px;">${person['Keywords']}</p>
     </div>
 </div>
 % endfor
