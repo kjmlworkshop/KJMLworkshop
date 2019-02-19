@@ -61,8 +61,9 @@ ${poster['Presenter']} (${poster['Affiliation']})
 </li>
 % endfor
 </ol>
-
+<br>
 {{% /template %}}
+
 
 
 ------------------
@@ -74,12 +75,11 @@ ${poster['Presenter']} (${poster['Affiliation']})
 % for person in data['participants']:
 <div style="margin-top:10px;">
     <div>
-    <img src="../images/${person['Pic']}" class="pic">
+    <img src="../images/${person['Pic']}" class="pic2">
     </div>
     <div>
-    <p><strong>${person['Name']}</strong></p>
-    <p>${person['Affiliation']}</p>
-    <p style="min-height: 220px;">${person['Keywords']}</p>
+    <p><strong>${person['Name']}</strong> (${person['Affiliation']})</p>
+    <p style="min-height: 120px;">${person['Keywords']}</p>
     </div>
 </div>
 % endfor
