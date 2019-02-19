@@ -61,8 +61,9 @@ ${poster['Presenter']} (${poster['Affiliation']})
 </li>
 % endfor
 </ol>
-
+<br>
 {{% /template %}}
+
 
 
 ------------------
@@ -78,7 +79,7 @@ ${poster['Presenter']} (${poster['Affiliation']})
     </div>
     <div>
     <p><strong>${person['Name']}</strong> (${person['Affiliation']})</p>
-    <p style="min-height: 80px;">${person['Keywords']}</p>
+    <p style="min-height: 120px;">${person['Keywords']}</p>
     </div>
 </div>
 % endfor
