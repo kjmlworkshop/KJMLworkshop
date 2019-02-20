@@ -89,7 +89,7 @@ Program Overview
   <tr class="">
   <td><b>06:00pm - 06:30pm</b></td>
   <td><b>Krikamol Muandet</b> (Max Plank Institute) <br>
-      Title: TBD</td>
+      Title: Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces</td>
   </tr>
 
   <tr class="">
@@ -171,7 +171,7 @@ Program Overview
   <tr class="">
   <td><b>04:00pm - 04:30pm</b></td>
   <td><b>Koji Tsuda</b> (The University of Tokyo / RIKEN-AIP) <br>
-      Title: TBD</td>
+      Title: Designing Materials with Machine Learning and Quantum Annealing</td>
   </tr>
 
   <tr class="">
@@ -208,7 +208,7 @@ Program Overview
   <tr class="">
   <td><b>10:00am - 10:30pm</b></td>
   <td><b>Jaejin Lee</b> (Seoul National University) <br> 
-      Title: TBD </td>
+      Title: Accelerating DNNs using Heterogeneous Clusters </td>
   </tr>
   <tr class="">
   <td><b>10:30am - 11:00pm</b></td>
