@@ -135,7 +135,7 @@ Program Overview
   </tr>
   <tr class="">
   <td><b>10:30am - 11:00pm</b></td>
-  <td><b>Jill-Jenn Vie</b> (RIKEN-AIP) <br>
+  <td><b>Jill-Jênn Vie</b> (RIKEN-AIP) <br>
       Title: Knowledge Tracing Machines: Factorization Machines for Educational Data Mining</td>
   </tr>
   <tr class="">
