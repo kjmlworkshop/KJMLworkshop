@@ -171,7 +171,7 @@ Program Overview
   <tr class="">
   <td><b>04:00pm - 04:30pm</b></td>
   <td><b>Koji Tsuda</b> (The University of Tokyo / RIKEN-AIP) <br>
-      Title: TBD</td>
+      Title: Designing Materials with Machine Learning and Quantum Annealing</td>
   </tr>
 
   <tr class="">
