@@ -213,7 +213,7 @@ Program Overview
   <tr class="">
   <td><b>10:30am - 11:00pm</b></td>
   <td><b>Kazuki Yoshizoe</b> (RIKEN-AIP) <br>
-      Title: Application of Search Algorithms and Machine Learning for Material Science</td>
+      Title: Deep Learning and Tree Search Finds New Molecules</td>
   </tr>
   <tr class="">
   <td><b>11:00am - 11:30pm</b></td>
