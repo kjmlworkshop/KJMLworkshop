@@ -78,8 +78,12 @@ ${poster['Presenter']} (${poster['Affiliation']})
     <img src="../images/${person['Pic']}" class="pic2">
     </div>
     <div>
-    <p><strong>${person['Name']}</strong> (${person['Affiliation']})</p>
-    <p style="min-height: 120px;">${person['Keywords']}</p>
+    <p>
+    % if person['Volunteer'] == 'Y':
+    <strong style="color:#009900;">[Volunteer] </strong>
+    % endif
+    <strong>${person['Name']}</strong> (${person['Affiliation']})</p>
+    <p style="min-height: 100px;">${person['Keywords']}</p>
     </div>
 </div>
 % endfor
