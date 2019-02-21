@@ -129,17 +129,17 @@ Program Overview
   <td colspan="2">Session 2</td>
   </tr>
   <tr class="">
-  <td><b>10:00am - 10:30pm</b></td>
+  <td><b>10:00am - 10:30am</b></td>
   <td><b>Frank C. Park</b> (Seoul National University) <br> 
       Title: Riemannian geometry and machine learning for non-Euclidean data </td>
   </tr>
   <tr class="">
-  <td><b>10:30am - 11:00pm</b></td>
+  <td><b>10:30am - 11:00am</b></td>
   <td><b>Jill-Jênn Vie</b> (RIKEN-AIP) <br>
       Title: Knowledge Tracing Machines: Factorization Machines for Educational Data Mining</td>
   </tr>
   <tr class="">
-  <td><b>11:00am - 11:30pm</b></td>
+  <td><b>11:00am - 11:30am</b></td>
   <td><b>Sun Kim</b> (Seoul National University) <br>
       Title: Modeling cancer cells using multi-omics data</td>
   </tr>
@@ -206,17 +206,17 @@ Program Overview
   <td colspan="2">Session 4</td>
   </tr>
   <tr class="">
-  <td><b>10:00am - 10:30pm</b></td>
+  <td><b>10:00am - 10:30am</b></td>
   <td><b>Jaejin Lee</b> (Seoul National University) <br> 
       Title: Accelerating DNNs using Heterogeneous Clusters </td>
   </tr>
   <tr class="">
-  <td><b>10:30am - 11:00pm</b></td>
+  <td><b>10:30am - 11:00am</b></td>
   <td><b>Kazuki Yoshizoe</b> (RIKEN-AIP) <br>
       Title: Deep Learning and Tree Search Finds New Molecules</td>
   </tr>
   <tr class="">
-  <td><b>11:00am - 11:30pm</b></td>
+  <td><b>11:00am - 11:30am</b></td>
   <td><b>Bohyung Han</b> (Seoul National University) <br>
       Title: Learning for Single-Shot Confidence Calibration in Deep Neural Networks through Stochastic Inferences</td>
   </tr>
