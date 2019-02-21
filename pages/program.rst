@@ -56,8 +56,8 @@
 <ol>
 % for poster in data['posters']:
 <li class='poster-list'>
-<b>${poster['Poster Title']}</b><br>
-${poster['Presenter']} (${poster['Affiliation']})
+<b>${poster['Presenter']}</b> (${poster['Affiliation']})<br>
+${poster['Poster Title']}
 </li>
 % endfor
 </ol>
