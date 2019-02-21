@@ -46,7 +46,7 @@ Announcements
 
 * **Krikamol Muandet** will give an informal lecture about kernel mean embedding (KME) (Friday 9pm-10pm). The lecture will be the background theory of his talk about KME applications. Please refer to his recent book about KME: `Krikamol's Book <https://www.nowpublishers.com/article/Details/MAL-060>`__
 
-* At the banquet seminar, **Yoonsuck Choe** (Samsung Research) and **Eun-Sol Kim** (Kakao Brain) will introduce their research labs.
+* At the banquet seminar, **Hyunjoo Jung & In-Kwon Choi** (Samsung Research) and **Eun-Sol Kim** (Kakao Brain) will introduce their research labs.
 
 * Hotel information is updated. Please look at the information at the `Venue tab <http://aisociety.kr/KJMLW2019/venue/index.html>`__ for reservations and transportations. For any additional inquiries, please contact `Yung-Kyun Noh <nohyung@snu.ac.kr>`__.
 
@@ -183,7 +183,7 @@ Program Overview
   <tr class="">
   <td><b>05:00pm - 09:00pm</b></td>
   <td><b>Banquet Seminar:</b> <br>
-      <b>Yoonsuck Choe</b> (Samsung Research) <br>
+      <b>Hyunjoo Jung & In-Kwon Choi</b> (Samsung Research) <br>
       <b>Eun-Sol Kim</b> (Kakao Brain) </td>
   </tr>
 
