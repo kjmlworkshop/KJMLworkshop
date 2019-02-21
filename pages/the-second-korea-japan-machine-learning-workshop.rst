@@ -161,7 +161,7 @@ Program Overview
   <tr class="">
   <td><b>03:00pm - 03:30pm</b></td>
   <td><b>Young-Han Kim</b> (UCSD) <br> 
-      Title: TBD </td>
+      Title: Deep Variational Inference with Common Information Extraction </td>
   </tr>
   <tr class="">
   <td><b>03:30pm - 04:00pm</b></td>

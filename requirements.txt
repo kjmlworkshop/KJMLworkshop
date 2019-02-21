@@ -5,7 +5,6 @@ asn1crypto==0.24.0
 async-timeout==3.0.1
 atomicwrites==1.1.5
 attrs==18.1.0
-Automat==0.0.0
 Babel==2.6.0
 backcall==0.1.0
 bleach==2.1.4
@@ -14,11 +13,9 @@ certifi==2018.8.13
 cffi==1.11.5
 chardet==3.0.4
 cloudpickle==0.7.0
-conda==4.5.10
 constantly==15.1.0
 cryptography==2.3.1
 cryptography-vectors==2.3.1
-cupy==4.1.0
 cycler==0.10.0
 decorator==4.3.0
 docutils==0.14
@@ -83,7 +80,6 @@ pycparser==2.18
 pygal==2.4.0
 Pygments==2.2.0
 PyHamcrest==1.9.0
-pyinotify==0.9.6
 pyOpenSSL==18.0.0
 pyparsing==2.2.0
 Pyphen==0.9.5

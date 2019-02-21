@@ -87,7 +87,7 @@ elif args.task == 'talk':
         f.write(json_data)
 
 elif args.task == 'people':
-    TALK_RANGE = "'Participants'!A1:D"
+    TALK_RANGE = "'Participants'!A1:E"
     df = read_data(TALK_RANGE)
     df['Pic'] = df['Pic'].apply(lambda x: x if os.path.isfile(f'../images/{x}') else 'placeholder.jpg')
     print(df)
