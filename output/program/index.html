@@ -30,9 +30,9 @@ Talks
     
     
     
-    Graph-based Semi-Supervised Learning for Genome, Diseasome, and Drugome
-    Hyunjung (Helen) Shin (Ajou University)
-    In this">
+    Adaptivity of deep ReLU network and its generalization error analysis
+    Taiji Suzuki (The University of Tokyo / RIKEN-AIP)
+  ">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2018-10-29T18:03:28+09:00">
 </head>
@@ -97,6 +97,16 @@ Talks
 </p>
 <div style="margin-top:10px;">
     <div>
+    <img src="../images/suzuki_face.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Adaptivity of deep ReLU network and its generalization error analysis</strong></p>
+    <p>Taiji Suzuki (The University of Tokyo / RIKEN-AIP)</p>
+    <p style="min-height: 220px;">Deep learning has shown high performances in various types of tasks from visual recognition to natural language processing, which indicates superior flexibility and adaptivity of deep learning. To understand this phenomenon theoretically, we develop a new approximation and estimation error analysis of deep learning with the ReLU activation for functions in a Besov space and its variant with mixed smoothness. The Besov space is a considerably general function space including the Holder space and Sobolev space, and especially can capture spatial inhomogeneity of smoothness. Through the analysis, it is shown that deep learning can achieve the minimax optimal rate and outperform any non-adaptive (linear) estimator such as kernel ridge regression, which shows that deep learning has higher adaptivity to the spatial inhomogeneity of the target function than other estimators such as linear ones. The essence behind the theory is the fact that deep learning can construct bases in an adaptive way to each target function. This point shares several similarities to the sparse learning methods such as L0 regularization and low rank matrix estimation. In particular, the non-convexity and sparsity of the model space are important. I will talk about the performance analysis of deep learning by emphasizing the connection to sparse estimation problems.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
     <img src="../images/hshin.jpg" class="pic">
 </div>
     <div>
@@ -107,16 +117,22 @@ Talks
 </div>
 <div style="margin-top:10px;">
     <div>
+    <img src="../images/krikamol.jpeg" class="pic">
+</div>
+    <div>
+    <p><strong>Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces</strong></p>
+    <p>Krikamol Muandet (Max Planck Institute for Intelligent Systems)</p>
+    <p style="min-height: 220px;">In this talk, I will discuss the problem of evaluating and learning optimal policies directly from observational (i.e., non-randomized) data using a novel framework called counterfactual mean embedding (CME). Identifying optimal policies is crucial for improving decision-making in online advertisement, finance, economics, and medical diagnosis. Classical approach, which is considered a gold standard for identifying optimal policies in these domains, is randomization. For example, an A/B testing has become one of the standard tools in online advertisement and recommendation systems. In medical domains, developments of new medical treatments depend exclusively on clinical controlled trials. Unfortunately, randomization in A/B testing and clinical controlled trial may be expensive, time-consuming, unethical, or even impossible to implement in practice. To evaluate the policy from observational data, the CME maps the counterfactual distributions of potential outcomes under different treatments into a reproducing kernel Hilbert space (RKHS). Based on this representation, causal reasoning about the outcomes of different treatments can be performed over the entire landscape of counterfactual distribution using the kernel arsenal. Under some technical assumptions, we can also make a causal explanation of the resulting policies.<br>Joint work with Sorawit Saengkyongam, Motonobu Kanagawa, and Sanparith Marukatat.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
     <img src="../images/Noh_small.png" class="pic">
 </div>
     <div>
     <p><strong>Inference and Estimation using Nearest Neighbors</strong></p>
     <p>Yung-Kyun Noh (Seoul National University)</p>
-    <p style="min-height: 220px;">In spite of the consistency property in theory of nearest neighbor methods, which relates the algorithm to the theoretical minimum error, the Bayes error, algorithm using nearest neighbors is not preferred by researchers because it is too simple and old-fashioned. However, due to its simplicity, the analysis in nearest neighbor methods is tractable and can produce non-asymptotic theories. Those have simply not yet experienced a big enough number of data to enjoy theoretical prediction, and the current algorithmic and system technologies are immature. In this talk, I will introduce some of my recent works implementing models that modify the geometry around the points of interest and perform the nearest neighbor methods with many data as if we were using effectively even more data than what is actually given. 
-
-
-
-We derive equations to take advantage of the entire information within finite but many data and achieve the inference and estimation results seemingly as if we had used infinite data. By doing this, we believe nearest neighbor methods can be considered a breakthrough showing asymptotic performance by the smart usage of extremely many data.</p>
+    <p style="min-height: 220px;">In spite of the consistency property in theory of nearest neighbor methods, which relates the algorithm to the theoretical minimum error, the Bayes error, algorithm using nearest neighbors is not preferred by researchers because it is too simple and old-fashioned. However, due to its simplicity, the analysis in nearest neighbor methods is tractable and can produce non-asymptotic theories. Those have simply not yet experienced a big enough number of data to enjoy theoretical prediction, and the current algorithmic and system technologies are immature. In this talk, I will introduce some of my recent works implementing models that modify the geometry around the points of interest and perform the nearest neighbor methods with many data as if we were using effectively even more data than what is actually given. <br>We derive equations to take advantage of the entire information within finite but many data and achieve the inference and estimation results seemingly as if we had used infinite data. By doing this, we believe nearest neighbor methods can be considered a breakthrough showing asymptotic performance by the smart usage of extremely many data.</p>
     </div>
 </div>
 <div style="margin-top:10px;">
@@ -131,6 +147,16 @@ We derive equations to take advantage of the entire information within finite bu
 </div>
 <div style="margin-top:10px;">
     <div>
+    <img src="../images/jilljenn.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Knowledge Tracing Machines – Factorization Machines for Educational Data Mining</strong></p>
+    <p>Jill-Jênn Vie (RIKEN-AIP)</p>
+    <p style="min-height: 220px;">Knowledge tracing is a sequence prediction problem where the goal is to predict the outcomes of students over questions as they are interacting with a learning platform. By tracking the evolution of the knowledge of some student, one can provide feedback, and optimize instruction accordingly. Existing methods are either based on temporal latent variable models like deep knowledge tracing (LSTMs), or factor analysis like item response theory (online logistic regression). We present factorization machines (FMs), a model for regression or classification that encompasses several existing models in the educational data mining literature as special cases, notably additive factor model, performance factor model, and multidimensional item response theory. We show, using several real datasets of tens of thousands of users and items, that FMs can estimate student knowledge accurately and fast even when student data is sparsely observed, and handle side information such as multiple knowledge components and number of attempts at item or skill level. To reproduce our experiments, a tutorial is available: https://github.com/jilljenn/ktm. Our article is on arXiv: https://arxiv.org/abs/1811.03388</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
     <img src="../images/skim.png" class="pic">
 </div>
     <div>
@@ -138,6 +164,78 @@ We derive equations to take advantage of the entire information within finite bu
     <p>Sun Kim (Seoul National University)</p>
     <p style="min-height: 220px;">Modeling (cancer) cells using multi-omics data is the ultimate research goal in my lab and we have been making a slow but steady progress over a decade for this goal. In this talk, I will present three of the recently submitted (unpublished) manuscripts towards this goal. (1) sequence level:  Ranked k-spectrum kernel for comparative and evolutionary comparison of exons, introns, and CpG islands, (2) transcript level: Cancer subtype classification and modeling by pathway attention and propagation, and (3) epigenetic level: PRISM: Methylation Pattern-based, Reference-free Inference of Subclonal Makeup.<br>
 The ranked string kernel paper proposes a new string kernel for comparative and evolutionary genomics. Existing string kernel methods have limitations for comparative and evolutionary studies due to the sensitiveness to over represented \(k\)-mers when applied on a genome scale. With this bias of over-representations, comparing multiple genomes simultaneously is even more challenging. To address these issues, we propose a novel ranked \(k\)-spectrum string (RKSS) kernel First, our RKSS kernel utilizes a common \(k\)-mer set across species, or landmarks, that can be used for comparing arbitrary number of genomes. Second, using landmarks, we can use ranks of \(k\)-mers rather than \(k\)-mer frequencies that can produce more reliable distances between genomes. Specifically, RKSS kernel is robust when the \(k\)-mer pattern is highly biased from repetitive elements or copy number variations as shown in our experiment. To demonstrate the power of RKSS kernel for comparative and evolutionary sequence comparison, we conducted two experiments using 10 mammalian species.<br>Two remaining manuscripts will be presented at this meeting as posters by the first authors. So, I will explain the research problems and the core concepts of our approaches briefly. The cancer pathway attention and propagation paper is to model cancer cells using an ensemble of several hundred deep learning pathway models. Two main ideas for this modeling are: when combining hundred pathway models, we need to catch context-dependent mechanisms of highlighting which pathways are important, thus attention mechanisms; to achieve explainable cancer cell modeling, we used pathway network propagation. The last paper is about PRISM, a computational method to infer cancer sublclones from DNA methylation data.  Each of unknown clone populations are mixed and represented in methylation data and the goal is to decompose the subclonal populations. The main computational challenges are that the number of dimensions is huge, several hundred million, and the data is error prone. We address this daunting problem by utilizing the characteristics of DNA methylation data. First, errors are corrected by modeling methylation patterns of DNMT1 enzyme using HMM. Then, with error-corrected methylation patterns, PRISM focuses on small individual genomic regions, each of which represent the abundance of a subclone. A set of statistics collected from each genomic region is modeled with a beta-binomial mixture. Fitting the mixture with expectation-maximization algorithm finally provides inferred composition of subclones.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/placeholder.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Weakly supervised classification</strong></p>
+    <p>Masashi Sugiyama (RIKEN-AIP)</p>
+    <p style="min-height: 220px;">None</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/yhk.png" class="pic">
+</div>
+    <div>
+    <p><strong>Deep Variational Inference with Common Information Extraction</strong></p>
+    <p>Young-Han Kim (UC San Diego)</p>
+    <p style="min-height: 220px;">Inspired by the channel synthesis problem in network information theory, we propose a new variational statistical inference approach that learns a succinct generative model for two data variables based on the notion of Wyner's common information. This generative model includes two groups of latent variables---first, the common latent variable that captures the common information (e.g., a shared concept) of the two data variables, and second, the local latent variables that capture the remaining randomness (e.g., texture and style) in respective data variables. A simple training scheme for the variational model is presented, as well as methods for controlling the amount of common information extraction. The utility of the proposed approach and accompanied training techniques is demonstrated through experiments for joint generation, conditional generation, and style transfer using synthetic data and real images.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/kalantar.JPG" class="pic">
+</div>
+    <div>
+    <p><strong>CONDITIONING FACTORS DETERMINATION FOR LANDSLIDE SUSCEPTIBILITY MAPPING USING SUPPORT VECTOR MACHINE LEARNING</strong></p>
+    <p>Bahareh Kalantar (RIKEN-AIP)</p>
+    <p style="min-height: 220px;">This study investigates the effectiveness of two sets of landslide conditioning variable(s).  Fourteen landslide conditioning variables were considered in this study where they were duly divided into two sets G1 and G2. Two Support Vector Machine (SVM) classifiers were constructed based on each dataset (SVM-G1 and SVM-G2) in order to determine which set would be more suitable for landslide susceptibility prediction. In total, 160 landslide inventory datasets of the study area were used where 70% was used for SVM training and 30% for testing. The intra-relationships between parameters were explored based on variance inflation factors (VIF), Pearson’s correlation and Cohen’s kappa analysis. Other evaluation metrics are the area under curve (AUC).
+
+</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/aiptsuda.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Designing Materials with Machine Learning and Quantum Annealing</strong></p>
+    <p>Koji Tsuda (RIKEN AIP/ The University of Tokyo)</p>
+    <p style="min-height: 220px;">The scientific process of discovering new knowledge is often characterized as search from a vast space of candidates, and machine learning can accelerate it by properly modeling the data and suggesting candidates for next experimentation. In many cases, experiments can be substituted by simulations such as first principles calculation. After reviewing basic machine learning techniques for materials design, I will present successful case studies including the design of Si-Ge nanostructures and layered thermal radiators. Finally, I will show how a D-wave quantum annealer can be used for complex materials design.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/chao_li.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Reshuffled Tensor Decomposition with Exact Recovery of Low-rank Components</strong></p>
+    <p>Chao Li (RIKEN-AIP)</p>
+    <p style="min-height: 220px;">Low-rank tensor decomposition (TD) is a promising approach for analysis and understanding of real-world. Many such analyses require correct recovery of the true components from the observed tensor, but such characteristic is not achieved in many existing TD methods.  To exactly recover the true components, we introduce a general class of tensor decomposition models where the tensor is decomposed as the sum of reshuffled low-rank components. The reshuffling operation generalizes the conventional folding (tensorization) operation, and also provides additional flexibility to recover true components of complex data structures. We develop a simple convex algorithm called Reshuffled-TD, and theoretically prove that and  exact  recovery  is  guaranteed  when  a  type of incoherence measure is upper bounded.  The results  on  image  steganography  show  that  our method obtains the state-of-the-art performance, and demonstrate the effectiveness of our method in practice.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/jaejin_lee.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Accelerating DNNs using Heterogeneous Clusters</strong></p>
+    <p>Jaejin Lee (Seoul National University)</p>
+    <p style="min-height: 220px;">Heterogeneous systems that are based on GPUs and FPGAs are widening their user base. In fact, GPU-based heterogeneous systems are <i>de facto</i> standard for running deep learning applications. Especially in the post Moore’s era, the role of accelerator-based heterogeneous systems is becoming more important. The high-performance computing community quickly recognized that deep learning applications have very similar characteristics to large-scale HPC applications. There are a lot of ways to parallelize and accelerate DNN models depending on different types of target architectures. In this talk, we first introduce current trends in heterogeneous computing systems. Then, we will introduce on-going research efforts in the multicore computing research laboratory at Seoul National University to achieve ease of programming and high performance targeting GPU and FPGA-based heterogeneous clusters.</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/yoshizoe_photo.jpg" class="pic">
+</div>
+    <div>
+    <p><strong>Deep Learning and Tree Search Finds New Molecules</strong></p>
+    <p>Kazuki Yoshizoe (RIKEN AIP)</p>
+    <p style="min-height: 220px;"><i>De novo</i> molecular generation is a problem about finding new chemical compounds. We tackle this problem by combining deep neural networks and search algorithms, the same combination which was used for the first version of the AlphaGo program which achieved super-human strength in the game of Go. We have defined a search space based on Simplified Molecular-Input Line-Entry System (SMILES), which is a way of describing molecules in ASCII strings popularly used among chemists. Our tool ChemTS utilizes a Recurrent Neural Network (RNN) model which generates SMILES strings, Monte-Carlo Tree Search algorithm, and computational chemistry simulators to find SMILES strings with high "scores" which are the candidates for new promising molecules. This AlphaGo-like approach obtained promising enough results as a Proof-of-Concept study.</p>
     </div>
 </div>
 <div style="margin-top:10px;">
@@ -164,98 +262,6 @@ The set of SPD matrices is not a subspace of Euclidean space and consequently al
 This direction exploits the power of  kernel methods from machine learning in a geometrical framework,both mathematically and algorithmically.
 
 The theoretical formulation will be illustrated with applications in computer vision, which demonstrate both the power of  kernel covariance operators as well as of the algorithms based on their intrinsic geometry.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/kalantar.JPG" class="pic">
-</div>
-    <div>
-    <p><strong>CONDITIONING FACTORS DETERMINATION FOR LANDSLIDE SUSCEPTIBILITY MAPPING USING SUPPORT VECTOR MACHINE LEARNING</strong></p>
-    <p>Bahareh Kalantar (RIKEN-AIP)</p>
-    <p style="min-height: 220px;">This study investigates the effectiveness of two sets of landslide conditioning variable(s).  Fourteen landslide conditioning variables were considered in this study where they were duly divided into two sets G1 and G2. Two Support Vector Machine (SVM) classifiers were constructed based on each dataset (SVM-G1 and SVM-G2) in order to determine which set would be more suitable for landslide susceptibility prediction. In total, 160 landslide inventory datasets of the study area were used where 70% was used for SVM training and 30% for testing. The intra-relationships between parameters were explored based on variance inflation factors (VIF), Pearson’s correlation and Cohen’s kappa analysis. Other evaluation metrics are the area under curve (AUC).
-
-</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/chao_li.jpg" class="pic">
-</div>
-    <div>
-    <p><strong>Reshuffled Tensor Decomposition with Exact Recovery of Low-rank Components</strong></p>
-    <p>Chao Li (RIKEN-AIP)</p>
-    <p style="min-height: 220px;">Low-rank tensor decomposition (TD) is a promising approach for analysis and understanding of real-world. Many such analyses require correct recovery of the true components from the observed tensor, but such characteristic is not achieved in many existing TD methods.  To exactly recover the true components, we introduce a general class of tensor decomposition models where the tensor is decomposed as the sum of reshuffled low-rank components. The reshuffling operation generalizes the conventional folding (tensorization) operation, and also provides additional flexibility to recover true components of complex data structures. We develop a simple convex algorithm called Reshuffled-TD, and theoretically prove that and  exact  recovery  is  guaranteed  when  a  type of incoherence measure is upper bounded.  The results  on  image  steganography  show  that  our method obtains the state-of-the-art performance, and demonstrate the effectiveness of our method in practice.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/jilljenn.jpg" class="pic">
-</div>
-    <div>
-    <p><strong>Knowledge Tracing Machines – Factorization Machines for Educational Data Mining</strong></p>
-    <p>Jill-Jênn Vie (RIKEN-AIP)</p>
-    <p style="min-height: 220px;">Knowledge tracing is a sequence prediction problem where the goal is to predict the outcomes of students over questions as they are interacting with a learning platform. By tracking the evolution of the knowledge of some student, one can provide feedback, and optimize instruction accordingly. Existing methods are either based on temporal latent variable models like deep knowledge tracing (LSTMs), or factor analysis like item response theory (online logistic regression). We present factorization machines (FMs), a model for regression or classification that encompasses several existing models in the educational data mining literature as special cases, notably additive factor model, performance factor model, and multidimensional item response theory. We show, using several real datasets of tens of thousands of users and items, that FMs can estimate student knowledge accurately and fast even when student data is sparsely observed, and handle side information such as multiple knowledge components and number of attempts at item or skill level. To reproduce our experiments, a tutorial is available: https://github.com/jilljenn/ktm. Our article is on arXiv: https://arxiv.org/abs/1811.03388</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/krikamol.jpeg" class="pic">
-</div>
-    <div>
-    <p><strong>Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces</strong></p>
-    <p>Krikamol Muandet (Max Planck Institute for Intelligent Systems)</p>
-    <p style="min-height: 220px;">In this talk, I will discuss the problem of evaluating and learning optimal policies directly from observational (i.e., non-randomized) data using a novel framework called counterfactual mean embedding (CME). Identifying optimal policies is crucial for improving decision-making in online advertisement, finance, economics, and medical diagnosis. Classical approach, which is considered a gold standard for identifying optimal policies in these domains, is randomization. For example, an A/B testing has become one of the standard tools in online advertisement and recommendation systems. In medical domains, developments of new medical treatments depend exclusively on clinical controlled trials. Unfortunately, randomization in A/B testing and clinical controlled trial may be expensive, time-consuming, unethical, or even impossible to implement in practice. To evaluate the policy from observational data, the CME maps the counterfactual distributions of potential outcomes under different treatments into a reproducing kernel Hilbert space (RKHS). Based on this representation, causal reasoning about the outcomes of different treatments can be performed over the entire landscape of counterfactual distribution using the kernel arsenal. Under some technical assumptions, we can also make a causal explanation of the resulting policies.<br>Joint work with Sorawit Saengkyongam, Motonobu Kanagawa, and Sanparith Marukatat.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/placeholder.jpg" class="pic">
-</div>
-    <div>
-    <p><strong>Accelerating DNNs using Heterogeneous Clusters</strong></p>
-    <p>Jaejin Lee (Seoul National University)</p>
-    <p style="min-height: 220px;">Heterogeneous systems that are based on GPUs and FPGAs are widening their user base. In fact, GPU-based heterogeneous systems are <i>de facto</i> standard for running deep learning applications. Especially in the post Moore’s era, the role of accelerator-based heterogeneous systems is becoming more important. The high-performance computing community quickly recognized that deep learning applications have very similar characteristics to large-scale HPC applications. There are a lot of ways to parallelize and accelerate DNN models depending on different types of target architectures. In this talk, we first introduce current trends in heterogeneous computing systems. Then, we will introduce on-going research efforts in the multicore computing research laboratory at Seoul National University to achieve ease of programming and high performance targeting GPU and FPGA-based heterogeneous clusters.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/suzuki_face.jpg" class="pic">
-</div>
-    <div>
-    <p><strong>Adaptivity of deep ReLU network and its generalization error analysis</strong></p>
-    <p>Taiji Suzuki (The University of Tokyo / RIKEN-AIP)</p>
-    <p style="min-height: 220px;">Deep learning has shown high performances in various types of tasks from visual recognition to natural language processing, which indicates superior flexibility and adaptivity of deep learning. To understand this phenomenon theoretically, we develop a new approximation and estimation error analysis of deep learning with the ReLU activation for functions in a Besov space and its variant with mixed smoothness. The Besov space is a considerably general function space including the Holder space and Sobolev space, and especially can capture spatial inhomogeneity of smoothness. Through the analysis, it is shown that deep learning can achieve the minimax optimal rate and outperform any non-adaptive (linear) estimator such as kernel ridge regression, which shows that deep learning has higher adaptivity to the spatial inhomogeneity of the target function than other estimators such as linear ones. The essence behind the theory is the fact that deep learning can construct bases in an adaptive way to each target function. This point shares several similarities to the sparse learning methods such as L0 regularization and low rank matrix estimation. In particular, the non-convexity and sparsity of the model space are important. I will talk about the performance analysis of deep learning by emphasizing the connection to sparse estimation problems.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/aiptsuda.jpg" class="pic">
-</div>
-    <div>
-    <p><strong>Designing Materials with Machine Learning and Quantum Annealing</strong></p>
-    <p>Koji Tsuda (RIKEN AIP/ The University of Tokyo)</p>
-    <p style="min-height: 220px;">The scientific process of discovering new knowledge is often characterized as search from a vast space of candidates, and machine learning can accelerate it by properly modeling the data and suggesting candidates for next experimentation. In many cases, experiments can be substituted by simulations such as first principles calculation. After reviewing basic machine learning techniques for materials design, I will present successful case studies including the design of Si-Ge nanostructures and layered thermal radiators. Finally, I will show how a D-wave quantum annealer can be used for complex materials design.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/yoshizoe_photo.jpg" class="pic">
-</div>
-    <div>
-    <p><strong>Deep Learning and Tree Search Finds New Molecules</strong></p>
-    <p>Kazuki Yoshizoe (RIKEN AIP)</p>
-    <p style="min-height: 220px;"><i>De novo</i> molecular generation is a problem about finding new chemical compounds. We tackle this problem by combining deep neural networks and search algorithms, the same combination which was used for the first version of the AlphaGo program which achieved super-human strength in the game of Go. We have defined a search space based on Simplified Molecular-Input Line-Entry System (SMILES), which is a way of describing molecules in ASCII strings popularly used among chemists. Our tool ChemTS utilizes a Recurrent Neural Network (RNN) model which generates SMILES strings, Monte-Carlo Tree Search algorithm, and computational chemistry simulators to find SMILES strings with high "scores" which are the candidates for new promising molecules. This AlphaGo-like approach obtained promising enough results as a Proof-of-Concept study.</p>
-    </div>
-</div>
-<div style="margin-top:10px;">
-    <div>
-    <img src="../images/yhk.png" class="pic">
-</div>
-    <div>
-    <p><strong>Deep Variational Inference with Common Information Extraction</strong></p>
-    <p>Young-Han Kim (UC San Diego)</p>
-    <p style="min-height: 220px;">Inspired by the channel synthesis problem in network information theory, we propose a new variational statistical inference approach that learns a succinct generative model for two data variables based on the notion of Wyner's common information. This generative model includes two groups of latent variables---first, the common latent variable that captures the common information (e.g., a shared concept) of the two data variables, and second, the local latent variables that capture the remaining randomness (e.g., texture and style) in respective data variables. A simple training scheme for the variational model is presented, as well as methods for controlling the amount of common information extraction. The utility of the proposed approach and accompanied training techniques is demonstrated through experiments for joint generation, conditional generation, and style transfer using synthetic data and real images.</p>
     </div>
 </div>
 
@@ -368,7 +374,7 @@ Applying Deep Reinforcement Learning to One-on-one Fighting of a Complex Commerc
 Tree-Sliced Approximation of Wasserstein Distances / Persistence Fisher Kernel: A Riemannian Manifold Kernel for Persistence Diagrams
 </li>
 <li class="poster-list">
-<b>Jongmin Lee</b> (Tree-Sliced Approximation of Wasserstein Distances / Persistence Fisher Kernel: A Riemannian Manifold Kernel for Persistence Diagrams)<br>
+<b>Jongmin Lee</b> (KAIST)<br>
 Monte-Carlo Tree Search for Constrained POMDPs
 </li>
 </ol>
@@ -503,6 +509,16 @@ Monte-Carlo Tree Search for Constrained POMDPs
     <p>
     <strong>Jaeyoung Kim</strong> (Seoul National University Human Computer Interaction Lab)</p>
     <p style="min-height: 100px;">Recommender system, Explainable ai</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/eskim.png" class="pic2">
+</div>
+    <div>
+    <p>
+    <strong>Eun-Sol Kim</strong> (Kakao Brain)</p>
+    <p style="min-height: 100px;">Graph Neural Networks, Multimodal Learning</p>
     </div>
 </div>
 <div style="margin-top:10px;">
@@ -667,7 +683,7 @@ Monte-Carlo Tree Search for Constrained POMDPs
 </div>
 <div style="margin-top:10px;">
     <div>
-    <img src="../images/placeholder.jpg" class="pic2">
+    <img src="../images/kwon.jpg" class="pic2">
 </div>
     <div>
     <p>
@@ -833,6 +849,26 @@ Monte-Carlo Tree Search for Constrained POMDPs
     <p>
     <strong>Tanuj Kr Aasawat</strong> (RIKEN AIP)</p>
     <p style="min-height: 100px;">HPC, Large-scale Graph Processing</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/hamilton.png" class="pic2">
+</div>
+    <div>
+    <p>
+    <strong>Francis Hamilton</strong> (Technical University of Denmark / RIKEN-AIP)</p>
+    <p style="min-height: 100px;">Deep RL for robotic mapping</p>
+    </div>
+</div>
+<div style="margin-top:10px;">
+    <div>
+    <img src="../images/jaejin_lee.jpg" class="pic2">
+</div>
+    <div>
+    <p>
+    <strong>Jaejin Lee</strong> (Seoul National University)</p>
+    <p style="min-height: 100px;"></p>
     </div>
 </div>
 

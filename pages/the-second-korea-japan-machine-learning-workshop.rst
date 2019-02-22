@@ -44,7 +44,7 @@ followed by `the First Korea-Japan Machine Learning Symposium <http://mlcenter.p
 Announcements
 -------------
 
-* **Krikamol Muandet** will give an informal lecture about kernel mean embedding (KME) (Friday 9pm-10pm). The lecture title is **"An Introduction to Hilbert Space Embedding of Probability Measures."** Please refer to his recent book about KME: `Krikamol's Book <https://www.nowpublishers.com/article/Details/MAL-060>`__
+* **Krikamol Muandet** will give an informal lecture about kernel mean embedding (KME) (Friday 9pm-10pm). The lecture title is **"An Introduction to Hilbert Space Embedding of Probability Measures."** Please refer to his recent book about KME: `Krikamol's Book <https://www.nowpublishers.com/article/Details/MAL-060>`__. **Lecture slide** `download </kme-korea-22-02-2019.pdf>`__
 
 * At the banquet seminar, **Hyunjoo Jung & In-Kwon Choi** (Samsung Research) and **Eun-Sol Kim** (Kakao Brain) will introduce their research labs.
 
@@ -105,7 +105,7 @@ Program Overview
 
   <tr class="">
   <td><b>09:00pm - 10:00pm</b></td>
-  <td>Informal lecture by <b>Krikamol Muandet</b> (for those who want to study more)</td>
+  <td>Informal lecture by <b>Krikamol Muandet</b> (for those who want to study more) <a href="kme-korea-22-02-2019.pdf"><b>Lecture slide</b></a>  </td>
   </tr>
 
   </tbody>
