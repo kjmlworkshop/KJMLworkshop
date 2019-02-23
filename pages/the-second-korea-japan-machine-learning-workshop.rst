@@ -105,7 +105,8 @@ Program Overview
 
   <tr class="">
   <td><b>09:00pm - 10:00pm</b></td>
-  <td>Informal lecture by <b>Krikamol Muandet</b> (for those who want to study more) <a href="kme-korea-22-02-2019.pdf"><b>Lecture slide</b></a>  </td>
+  <td>Informal lecture by <b>Krikamol Muandet</b> (for those who want to study more)  <br>
+      Title: An Introduction to Hilbert Space Embedding of Probability Measures  <a href="kme-korea-22-02-2019.pdf"><b>Lecture slide</b></a>  </td>
   </tr>
 
   </tbody>
