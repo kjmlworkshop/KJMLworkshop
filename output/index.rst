@@ -44,7 +44,7 @@ followed by `the First Korea-Japan Machine Learning Symposium <http://mlcenter.p
 Announcements
 -------------
 
-* **Krikamol Muandet** will give an informal lecture about kernel mean embedding (KME) (Friday 9pm-10pm). The lecture title is **"An Introduction to Hilbert Space Embedding of Probability Measures."** Please refer to his recent book about KME: `Krikamol's Book <https://www.nowpublishers.com/article/Details/MAL-060>`__. **Lecture slide** `download </kme-korea-22-02-2019.pdf>`__
+* **Krikamol Muandet** will give an informal lecture about kernel mean embedding (KME) (Friday 9pm-10pm). The lecture title is **"An Introduction to Hilbert Space Embedding of Probability Measures."** Please refer to his recent book about KME: `Krikamol's Book <https://www.nowpublishers.com/article/Details/MAL-060>`__. **Lecture slide** `download </slides/kme-korea-22-02-2019.pdf>`__
 
 * At the banquet seminar, **Hyunjoo Jung & In-Kwon Choi** (Samsung Research) and **Eun-Sol Kim** (Kakao Brain) will introduce their research labs.
 
@@ -89,7 +89,7 @@ Program Overview
   <tr class="">
   <td><b>06:00pm - 06:30pm</b></td>
   <td><b>Krikamol Muandet</b> (Max Plank Institute) <br>
-      Title: Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces</td>
+      Title: Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces  <a href="slides/krikamol.pdf"><b>Lecture slide</b></a></td>
   </tr>
 
   <tr class="">
@@ -106,7 +106,7 @@ Program Overview
   <tr class="">
   <td><b>09:00pm - 10:00pm</b></td>
   <td>Informal lecture by <b>Krikamol Muandet</b> (for those who want to study more)  <br>
-      Title: An Introduction to Hilbert Space Embedding of Probability Measures  <a href="kme-korea-22-02-2019.pdf"><b>Lecture slide</b></a>  </td>
+      Title: An Introduction to Hilbert Space Embedding of Probability Measures  <a href="slides/kme-korea-22-02-2019.pdf"><b>Lecture slide</b></a>  </td>
   </tr>
 
   </tbody>
@@ -148,7 +148,7 @@ Program Overview
   <tr class="">
   <td><b>11:30am - 12:00pm</b></td>
   <td><b>Masashi Sugiyama</b> (The University of Tokyo / RIKEN-AIP) <br>
-      Title: Weakly supervised classification</td>
+      Title: Weakly Supervised Classification, Robust Learning and More: Overview of Our Recent Advances</td>
   </tr>
 
   <tr class="">
