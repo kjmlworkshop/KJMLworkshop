@@ -71,7 +71,7 @@ ${poster['Poster Title']}
 ------------------
 
 
-.. image:: /images/participants.jpg
+.. image:: /images/participants.JPG
    :width: 800px
    :align: center
 
