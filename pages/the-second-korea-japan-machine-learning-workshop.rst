@@ -89,13 +89,13 @@ Program Overview
   <tr class="">
   <td><b>06:00pm - 06:30pm</b></td>
   <td><b>Krikamol Muandet</b> (Max Plank Institute) <br>
-      Title: Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces  <a href="slides/krikamol.pdf"><b>Lecture slide</b></a></td>
+      Title: Counterfactual Policy Evaluation and Optimization in Reproducing Kernel Hilbert Spaces  <a href="slides/krikamol.pdf"><b>slides</b></a></td>
   </tr>
 
   <tr class="">
   <td><b>06:30pm - 07:00pm</b></td>
   <td><b>Yung-Kyun Noh</b> (Seoul National University) <br>
-      Title: Inference and Estimation using Nearest Neighbors</td>
+      Title: Inference and Estimation using Nearest Neighbors  <a href="slides/yknoh.pdf"><b>slides</b></a> </td>
   </tr>
 
   <tr class="">
@@ -106,7 +106,7 @@ Program Overview
   <tr class="">
   <td><b>09:00pm - 10:00pm</b></td>
   <td>Informal lecture by <b>Krikamol Muandet</b> (for those who want to study more)  <br>
-      Title: An Introduction to Hilbert Space Embedding of Probability Measures  <a href="slides/kme-korea-22-02-2019.pdf"><b>Lecture slide</b></a>  </td>
+      Title: An Introduction to Hilbert Space Embedding of Probability Measures  <a href="slides/kme-korea-22-02-2019.pdf"><b>Lecture slides</b></a>  </td>
   </tr>
 
   </tbody>
@@ -172,7 +172,7 @@ Program Overview
   <tr class="">
   <td><b>04:00pm - 04:30pm</b></td>
   <td><b>Koji Tsuda</b> (The University of Tokyo / RIKEN-AIP) <br>
-      Title: Designing Materials with Machine Learning and Quantum Annealing</td>
+      Title: Designing Materials with Machine Learning and Quantum Annealing <a href="slides/koji.pdf"><b>slides</b></a> </td>
   </tr>
 
   <tr class="">
@@ -219,7 +219,7 @@ Program Overview
   <tr class="">
   <td><b>11:00am - 11:30am</b></td>
   <td><b>Bohyung Han</b> (Seoul National University) <br>
-      Title: Learning for Single-Shot Confidence Calibration in Deep Neural Networks through Stochastic Inferences</td>
+      Title: Learning for Single-Shot Confidence Calibration in Deep Neural Networks through Stochastic Inferences <a href="slides/bohyung.pdf"><b>slides</b></a></td>
   </tr>
 
   <tr class="">
