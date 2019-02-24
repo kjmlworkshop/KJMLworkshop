@@ -70,6 +70,13 @@ ${poster['Poster Title']}
 **Participants**
 ------------------
 
+
+.. image:: /images/participants.jpg
+   :width: 800px
+   :align: center
+
+
+
 {{% template %}}
 
 % for person in data['participants']:

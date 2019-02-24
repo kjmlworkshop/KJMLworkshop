@@ -79,7 +79,7 @@ Program Overview
   <tr class="">
   <td><b>05:00pm - 05:30pm</b></td>
   <td><b>Taiji Suzuki</b> (The University of Tokyo / RIKEN-AIP) <br> 
-      Title: Adaptivity of deep ReLU network and its generalization error analysis </td>
+      Title: Adaptivity of deep ReLU network and its generalization error analysis <a href="slides/suzuki.pdf"><b>slides</b></a> </td>
   </tr>
   <tr class="">
   <td><b>05:30pm - 06:00pm</b></td>
@@ -148,7 +148,7 @@ Program Overview
   <tr class="">
   <td><b>11:30am - 12:00pm</b></td>
   <td><b>Masashi Sugiyama</b> (The University of Tokyo / RIKEN-AIP) <br>
-      Title: Weakly Supervised Classification, Robust Learning and More: Overview of Our Recent Advances</td>
+      Title: Weakly Supervised Classification, Robust Learning and More: Overview of Our Recent Advances <a href="slides/sugiyama.pdf"><b>slides</b></a> </td>
   </tr>
 
   <tr class="">
