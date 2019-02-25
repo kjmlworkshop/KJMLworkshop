@@ -132,7 +132,7 @@ Program Overview
   <tr class="">
   <td><b>10:00am - 10:30am</b></td>
   <td><b>Frank C. Park</b> (Seoul National University) <br> 
-      Title: Riemannian geometry and machine learning for non-Euclidean data </td>
+      Title: Riemannian geometry and machine learning for non-Euclidean data <a href="slides/fcp.pdf"><b>slides</b></a> </td>
   </tr>
   <tr class="">
   <td><b>10:30am - 11:00am</b></td>
@@ -225,7 +225,7 @@ Program Overview
   <tr class="">
   <td><b>11:30am - 12:00pm</b></td>
   <td><b>Minh Ha Quang</b> (RIKEN-AIP) <br>
-      Title: Covariance Matrices and Covariance Operators: Theory and Applications</td>
+      Title: Covariance Matrices and Covariance Operators: Theory and Applications <a href="slides/HaQuangMinh.pdf"><b>slides</b></a> </td>
   </tr>
 
   </tbody>
