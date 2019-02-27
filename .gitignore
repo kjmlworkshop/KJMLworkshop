@@ -5,3 +5,4 @@ __pycache__/*
 cache/*
 cache/.mako.tmp/*
 venv/*
+data/token.pickle
