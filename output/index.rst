@@ -71,7 +71,8 @@ Program Overview
   <tbody>
   <tr>
   <td width="200px"><b>04:30pm - 05:00pm</b></td>
-  <td>Introduction (<b>Masashi Sugiyama</b>, <b>Sun Kim</b>)</td>
+  <td> Opening (<b>Yung-Kyun Noh</b>) <a href="slides/introduction.pdf"><b>slides</b></a> <br>
+  Introduction (<b>Masashi Sugiyama</b>, <b>Sun Kim</b>)</td>
   </tr>
   <tr class="">
   <td colspan="2">Session 1</td>
@@ -142,7 +143,7 @@ Program Overview
   <tr class="">
   <td><b>11:00am - 11:30am</b></td>
   <td><b>Sun Kim</b> (Seoul National University) <br>
-      Title: Modeling cancer cells using multi-omics data</td>
+      Title: Modeling cancer cells using multi-omics data <a href="slides/sun.pdf"><b>slides</b></a> </td>
   </tr>
 
   <tr class="">
@@ -167,7 +168,7 @@ Program Overview
   <tr class="">
   <td><b>03:30pm - 04:00pm</b></td>
   <td><b>Bahareh Kalantar</b> (RIKEN-AIP) <br>
-      Title: Landslide Susceptibility mapping using machine learning algroithms</td>
+      Title: Landslide Susceptibility mapping using machine learning algroithms <a href="slides/kalantar.pdf"><b>slides</b></a> </td>
   </tr>
   <tr class="">
   <td><b>04:00pm - 04:30pm</b></td>
