@@ -71,7 +71,7 @@ Program Overview
   <tbody>
   <tr>
   <td width="200px"><b>04:30pm - 05:00pm</b></td>
-  <td> Opening (<b>Yung-Kyun Noh</b>) <a href="slides/introduction.pdf"><b>slides</b></a> <br>
+  <td> Opening (<b>Yung-Kyun Noh</b>) <a href="slides/Introduction.pdf"><b>slides</b></a> <br>
   Introduction (<b>Masashi Sugiyama</b>, <b>Sun Kim</b>)</td>
   </tr>
   <tr class="">
