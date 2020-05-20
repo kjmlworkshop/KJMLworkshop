@@ -30,7 +30,7 @@ google-auth==1.6.2
 google-auth-httplib2==0.0.3
 google-auth-oauthlib==0.2.0
 html5lib==1.0.1
-httplib2==0.12.1
+httplib2==0.18.0
 husl==4.0.3
 idna==2.7
 idna-ssl==1.1.0
