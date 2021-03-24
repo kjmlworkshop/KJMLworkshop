@@ -81,7 +81,7 @@ PyYAML==3.13
 pyzmq==17.1.2
 requests==2.21.0
 requests-oauthlib==1.2.0
-rsa==4.0
+rsa==4.1
 Send2Trash==1.5.0
 six==1.11.0
 smartypants==2.0.1
