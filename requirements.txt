@@ -35,7 +35,7 @@ husl==4.0.3
 idna==2.7
 idna-ssl==1.1.0
 ipykernel==5.1.0
-ipython==7.2.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.13.2
 Jinja2==2.10
